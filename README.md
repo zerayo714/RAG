@@ -13,6 +13,9 @@
 ## Streamlit畫面
 ![](https://github.com/zerayo714/RAG/blob/main/Demo.png)
 
+## 模型配置
+For generation : ```gpt-3.5-turbo```  
+For embedding : ```all-MiniLM-L12-v2```
 ## 套件使用
 ```python
 import langchain
