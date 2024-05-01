@@ -9,11 +9,11 @@
 - Retrieval: 檢索向量資料庫
 - Generation: 生成回應
 
-
-![Screenshot 1](https://github.com/zerayo714/RAG/blob/main/%E7%A4%BA%E6%84%8F%E5%9C%96.jpg)
+![](https://github.com/zerayo714/RAG/blob/main/%E7%A4%BA%E6%84%8F%E5%9C%96.jpg)
+## Streamlit畫面
+![](https://github.com/zerayo714/RAG/blob/main/Demo.png)
 
 ## 套件使用
-
 ```python
 import langchain
 import openai
