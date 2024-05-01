@@ -1,6 +1,6 @@
 import langchain
 import openai
-from langchain.llms import OpenAI  # 引入 OpenAI 类
+from langchain.llms import OpenAI
 
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.indexes import VectorstoreIndexCreator
@@ -26,7 +26,6 @@ for message in st.session_state.messages:
 # 我的input
 prompt = st.chat_input("Pass your prompt here")
 
-# 检查 PDF 文件路径和创建检索链
 @st.cache_resource
 def create_vectorstore():
     pdf_name = "rag.pdf"  #待檢索的文件
