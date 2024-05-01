@@ -1,7 +1,7 @@
 # RAG(Retrieval Augmentation Generation)
 
 ## 特性
-- 檢索外部資料庫來提昇Output品質和精準度
+- 檢索外部資料庫來提升Output品質和精準度
 - 不需重新訓練LM
 - 向量資料庫(ex.ChromaDB/WeaviateDB)
 ## 流程圖
